@@ -21,8 +21,9 @@ body{
 
 
 .screen {
+    text-align: center;
     max-height: 75px;
-    max-width: 225px;
+    max-width: 300px;
     margin-right: 5px;
     font-size: x-large;
     border-radius: 20px;
@@ -44,11 +45,15 @@ body{
     outline: none;
     border: none;
     border-radius: 50%;
+    transition: 0.3s;
 }
 
+.btn-borrar:hover{
+    background-color:  #56596a;
+}
 
 .keys {
-    width: 350px;
+    width: 425px;
 }
 
 .num,
@@ -65,16 +70,36 @@ body{
 
 .operator{
     color: rgb(70, 200, 139);
-    font-size: xx-large;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+.operator:hover{
+    background-color:  #56596a;
 }
 
 .operator-igual{
     color: aliceblue;
     background-color: rgb(70, 200, 139);
     font-size: xx-large;
+    transition: 0.3s;
+}
+
+.operator-igual:hover{
+    background-color: rgb(48, 136, 95);
+    
 }
 
 .num{
     color: aliceblue;
     font-size: x-large;
+    transition: 0.3s;
+}
+
+.num:hover{
+    background-color:  #56596a;
+}
+
+i{
+    font-size: large;
 }
